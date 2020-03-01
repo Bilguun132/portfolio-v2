@@ -17,7 +17,7 @@ const socialLinks = [
     url: "https://medium.com/@bilguun132"
   },
   {
-    fontAwesomeIcon: "telegram",
+    fontAwesomeIcon: "google",
     name: "Contact me",
     url: "mailto:bilguun132@gmail.com"
   },
@@ -55,7 +55,6 @@ export const Home = () => {
         })}
       </div>
       <MouseIcon />
-
     </Element>
   );
 };

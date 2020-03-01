@@ -14,7 +14,11 @@ const SocialLink = ({ fontAwesomeIcon, name, url }) => {
     >
       <a href={url} target="_blank" rel="noopener noreferrer">
         <Tooltip
-          html={<div className="mt-4 p-4 rounded bg-gray-200">{name}</div>}
+          html={
+            <div className="mt-4 p-4 rounded bg-gray-700">
+              <p className="text-white">{name}</p>
+            </div>
+          }
           theme="dark"
           position="bottom"
           trigger="mouseenter"
