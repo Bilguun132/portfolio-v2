@@ -8,7 +8,7 @@ const SocialLink = ({ fontAwesomeIcon, name, url }) => {
 
   return (
     <div
-      className="m-5"
+      className="m-5 flex-shrink"
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >

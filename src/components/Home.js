@@ -35,11 +35,11 @@ export const Home = () => {
       className="justify-center flex-col items-center flex h-screen"
       // style={{backgroundImage: `url(${bg})`}}
     >
-      <p className="text-4xl tracking-wide font-bold text-primary text-center md:text-6xl md:tracking-wider m-4">
+      <p className="text-2xl tracking-wide font-bold text-primary text-center md:text-6xl md:tracking-wider m-4">
         Hello, I'm Bilguun!
       </p>
       <TextLoop
-        className="text-3xl tracking-wide font-bold text-primary text-center md:text-5xl md:tracking-wider m-4"
+        className="tracking-wide font-bold text-primary text-center md:text-5xl md:tracking-wider m-4"
         children={[
           "Mobile 📱",
           "Backend 📃",
