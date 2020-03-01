@@ -16,7 +16,7 @@ export const Experience = () => {
         <Section.Header title="Experience" icon="🏢" label="office-building" />
         <div className="container mx-auto">
           <div
-            className="flex items-center justify-center shadow self-center h-16 mt-8
+            className="flex items-center justify-center shadow self-center h-auto mt-8
   transform hover:shadow-lg hover:-translate-y-2 hover:shadow-md transition ease-in 
   duration-200"
           >

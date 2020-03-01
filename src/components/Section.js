@@ -7,7 +7,7 @@ const Container = ({ id, children }) => {
   return (
     <Element
       name={id}
-      className="justify-center flex flex-col h-screen m-10 md:m-20 leading-loose"
+      className="justify-center flex flex-col min-h-screen m-10 md:m-20 leading-loose"
     >
       {children}
     </Element>
